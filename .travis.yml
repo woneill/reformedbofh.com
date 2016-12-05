@@ -4,3 +4,7 @@ rvm:
 - 2.2
 install: bundle install
 script: bundle exec jekyll build
+deploy:
+  provider: pages
+  github-token: CHANGEME
+  local-dir: _site
